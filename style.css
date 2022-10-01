@@ -1,0 +1,307 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500&display=swap');
+
+
+/* header */
+
+.header {
+    background: #FFFFFF;
+
+}
+
+
+/* Navbar */
+
+#banquee {
+    width: 139px;
+    height: 32px;
+    margin-left: 140px;
+    margin-bottom: 15px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -0.03em;
+    color: #5BB5A2;
+}
+
+.nav-item{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 170%;
+    /* or 27px */
+    color: #1A191E;
+}
+
+#txt{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    margin-right: 10px;
+
+    letter-spacing: -0.03em;
+
+    color: #5BB5A2;
+}
+ .btn {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 100%;
+
+    background: #5BB5A2;
+    color: #5BB5A2;
+    border-radius: 6px;
+    margin-right: 140px;
+ }
+
+ /* section-1 */
+
+.s-one{
+    margin: 110px 240px ;
+}
+
+
+.lorem {
+    width: 600px;
+    height: 82px;
+    color: #1A191E;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 170%;
+}
+
+.banking {
+    width: 502px;
+    height: 220px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 110%;
+    /* or 110px */
+    letter-spacing: -0.03em;
+
+    color: #1A191E;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    padding: 0px;
+    gap: 80px;
+
+    
+}
+
+.list p{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+
+    color: #1A191E;
+}
+
+.list p i {
+
+    color: #5BB5A2;
+
+}
+
+.bt {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 16px 24px; */
+    gap: 10px;
+}
+
+#crd {
+    height: 530px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    margin-left: 100px;
+}
+
+/* section-2 */
+
+.s-two{
+    margin: 110px 240px ;
+}
+
+#app {
+    font-size: 80px;
+}
+
+.card-title {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+
+    color: #1A191E;
+}
+
+.card-text {
+    width: 220px;
+    height: 78px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #1A191E;
+}
+
+.card-body i {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: #E8F2EE;
+    border-radius: 100px;
+    color: #5BB5A2;
+}
+
+
+#appli {
+    height: 800px;
+    width: 380px;
+}
+
+/* section-3 */
+
+/* .container {
+    margin: 110px 240px;
+} */
+
+.send {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 110%;
+    letter-spacing: -0.03em;
+    color: #1A191E;
+
+}
+
+.lorm {
+    width: 560px;
+    height: 72px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+    color: #1A191E;
+}
+
+.lst {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+
+    width: 193px;
+    height: 120px;
+}
+
+.lst p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    color: #1A191E;
+}
+
+.lst p i {
+    color: #5BB5A2;
+}
+.steps{
+  display: flex;
+}
+
+.sz{
+    width: 400px;
+    height: 100px;
+}
+
+.siz {
+    width: 498.75px;
+    height: 100px;
+}
+
+#icn{
+    border-radius: 10px;
+    background: #5BB5A2;
+    color: #FFFFFF;;
+}
+
+.ts {
+    width: 450px;
+}
+
+
+/* footer section */
+
+#banque {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -0.03em;
+    color: #5BB5A2;
+}
+
+.fhdr {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+
+    letter-spacing: -0.03em;
+    color: #1A191E;
+}
+
+
+.ftxt{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+
+    color: rgba(26, 25, 30, 0.5);
+}
+
+#cp {
+    font-size: 14px;
+}
